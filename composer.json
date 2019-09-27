@@ -1,0 +1,22 @@
+{
+    "name": "jnjxp/bootstrap",
+    "description": "tools for TWBS",
+    "type": "library",
+    "require": {
+        "twbs/bootstrap": "^4.3",
+        "scssphp/scssphp": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jake johns",
+            "email": "jake@jakejohns.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Jnjxp\\Bootstrap\\": "src/"
+        }
+    },
+    "bin": ["bin/bootstrap-css"]
+}
